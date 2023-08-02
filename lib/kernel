@@ -27,8 +27,8 @@ kernel_select=$(dialog --backtitle "${title}" --title "| Núcleo |" \
 --stdout --ok-label "Selecciona" --no-cancel --menu "\nElige que núcleo necesitas: \n\n\
 > Linux Estable es la mejor opción\n\nLas otras opciones tienen un estilo diferente para \
 instalar los controladores\nLas otras versiones del núcleo trabajan con controladores libres\n " 18 0 200 \
-"linux-estable"  " La imagen genérica y estable más reciente de Linux" \
-"linux-endurecido"  " Núcleo con endurecimiento para proporcionar mayor seguridad " \
+"linux-stable"  " La imagen genérica y estable más reciente de Linux" \
+"linux-hardened"  " Núcleo con endurecimiento para proporcionar mayor seguridad " \
 "linux-lts"  " Núcleo con soporte de larga duración                    " \
 "linux-zen"  " Versión de Liquorix para Archlinux ")
 
